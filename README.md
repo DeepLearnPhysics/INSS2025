@@ -57,6 +57,10 @@ To obtain these files:
 * If you have S3DF computing account, they can be found under `/sdf/data/neutrino/public_html/inss/`
   * Kazu can help copying files to other sites (NERSC, Aurora, FNAL, etc.)
 
+## Accessing data in files
+
+Take a look at [this example notebook](https://nbviewer.org/github/DeepLearnPhysics/INSS2025/blob/main/notebooks/data_access.ipynb).
+
 ## Challenge Task
 
 * By the deadline, identify the location of Michel electron pixels in all images
@@ -88,6 +92,7 @@ When you submit your solution, Kazu will try to get back to you as soon as possi
 Use 100 example dataset (file D) to get a feeling for the challenge.
 
 Use 10k training dataset (file C) with labels to develop your model and validate its generalizablility.
+
 
 
 
