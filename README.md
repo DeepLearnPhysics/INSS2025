@@ -47,6 +47,7 @@ There are 4 sets of files.
 - D) Example 100 events
     - `example_xyze_100.h5` ([link](https://s3df.slac.stanford.edu/data/neutrino/inss/example_xyze_100.h5), 6.4 MB)
     - `example_label_100.h5` ([link](https://s3df.slac.stanford.edu/data/neutrino/inss/example_label_100.h5), 1.7 MB)
+    - `example_solution_100.h5` ([link](https://s3df.slac.stanford.edu/data/neutrino/inss/example_solution_100.h5), 36 KB)
 
 The 100 event files (D) is a subset of 10k training datasets.
 
@@ -62,8 +63,9 @@ To obtain these files:
 * **The goal is to analyze 1M images (file A).**
   * **_However_**, if that not possible, you can also submit your solution based on 10k images (file B).
 * Submit your solution in single HDF5 file format
-  * The file should contain a variable length array of type `int32`, size should be the number of images.
+  * The file should contain a variable length array of type `int32`, the length of the array should be the number of images.
   * The array elements should indicate the 3D voxel index of Michel electron pixels in the original `N` long array in the `xyze` data.
+      * You can find an example solution format store in D) file, `example_solution_100.h5` ([link](https://s3df.slac.stanford.edu/data/neutrino/inss/example_solution_100.h5)). 
   * The solution file should be small and you can upload to [this google dirive folder](https://drive.google.com/drive/folders/1D6KAkd2Fyi6mqk6pYsz1ZZhh7eOWA9lw?usp=sharing).
  
 ### Bonus Task
@@ -86,6 +88,7 @@ When you submit your solution, Kazu will try to get back to you as soon as possi
 Use 100 example dataset (file D) to get a feeling for the challenge.
 
 Use 10k training dataset (file C) with labels to develop your model and validate its generalizablility.
+
 
 
 
