@@ -8,7 +8,7 @@ Comments:
 * Gread F-score. Awesome example event displays (see below).
 
 <div align='left'>
-<img src="./images/stability.gif" alt="stability" width="45%" />
+<img src="./images/stability.png" alt="stability" width="45%" />
 </div>
 
 ## F-Score
